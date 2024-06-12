@@ -6,7 +6,6 @@
       500
     ]
   },
-  
   "test_vocab": {
     "length": 7163,
     "tag2id_length": 7,
@@ -24,8 +23,11 @@
     ]
   },
   "test_NERNet": {
-    "f1": 0.9534761126647349,
-    "f1_wo_o": 0.9570967104692285
+    "f1": 0.9592762126189595,
+    "f1_wo_o": 0.9632055201326271
   },
-  "test_glove": "NameError(\"name 'best_model_glove_cfg' is not defined\")"
+  "test_glove": {
+    "f1": 0.9548215242994113,
+    "f1_wo_o": 0.9570985823697382
+  }
 }
