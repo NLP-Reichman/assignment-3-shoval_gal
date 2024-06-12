@@ -1,5 +1,11 @@
 {
-  "test_read_data": "TypeError(\"object of type 'function' has no len()\")",
+  "test_read_data": {
+    "lengths": [
+      1750,
+      250,
+      500
+    ]
+  },
   "test_vocab": {
     "length": 7163,
     "tag2id_length": 7,
@@ -16,6 +22,9 @@
       32
     ]
   },
-  "test_NERNet": "NameError(\"name 'best_model_cfg' is not defined\")",
-  "test_glove": "NameError(\"name 'get_emb_matrix' is not defined\")"
+  "test_NERNet": {
+    "f1": 0.9534761126647349,
+    "f1_wo_o": 0.9570967104692285
+  },
+  "test_glove": "NameError(\"name 'best_model_glove_cfg' is not defined\")"
 }
